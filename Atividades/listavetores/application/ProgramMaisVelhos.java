@@ -32,6 +32,8 @@ public class ProgramMaisVelhos {
 
         System.out.println("PESSOA MAIS VELHA: " + pessoaMaisVelha);
 
+        tc.close();
+
 
     }
 }

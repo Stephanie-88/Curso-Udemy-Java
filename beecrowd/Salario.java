@@ -19,7 +19,7 @@ public class Salario {
         
         System.out.printf("NUMBER = %d\nSALARY = U$ %.2f\n",numFuncionario, salario);
         
-        
+        teclado.close();
  
     }
 }

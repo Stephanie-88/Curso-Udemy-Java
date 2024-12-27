@@ -52,5 +52,7 @@ public class ProgramAlturas {
             }
         }
 
+        tc.close();
+
     }
 }

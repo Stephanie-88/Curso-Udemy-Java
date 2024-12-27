@@ -28,5 +28,7 @@ public class MaiorPosicao {
         System.out.println("\n");
         System.out.println("MAIOR VALOR = " + maior);
         System.out.println("POSICAO DO MAIOR VALOR = " + posicao);
+
+        tc.close();
     }
 }

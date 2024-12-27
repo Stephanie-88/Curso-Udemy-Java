@@ -28,5 +28,6 @@ public class SomaVetores {
             vectC[i] = vectA[i] + vectB[i];
             System.out.println(vectC[i]);
         }
+        tc.close();
     }
 }

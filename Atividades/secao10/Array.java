@@ -30,5 +30,6 @@ public class Array {
         double media = soma/n;
         
         System.out.println("Media: " + media);
+        tc.close();
     }
 }

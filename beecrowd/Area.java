@@ -27,5 +27,7 @@ public class Area {
         System.out.printf("TRAPEZIO:: %.3f\n", areaTrapezio);
         System.out.printf("QUADRADO: %.3f\n", areaQuadrado);
         System.out.printf("RETANGULO: %.3f\n", areaRetangulo);
+
+        teclado.close();
     }
 }

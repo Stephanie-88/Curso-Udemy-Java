@@ -1,7 +1,6 @@
 package beecrowd;
 
 import java.io.IOException;
-import java.math.*;
 import java.util.*;
 
 public class AreaCirculo {
@@ -17,6 +16,8 @@ public class AreaCirculo {
         
         areaCirculo = N*Math.pow(raio,2);
         System.out.printf("A=%.4f\n",areaCirculo);
+
+        teclado.close();
   
      }
 }
