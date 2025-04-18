@@ -12,6 +12,7 @@ public class ProgramAlturas {
         System.out.println("Quantas pessoas serão digitadas?");
         n = tc.nextInt();
         Pessoa []vect = new Pessoa[n];
+        tc.nextLine();
 
         for(int i = 0;i < n;i++){
             tc.nextLine();
