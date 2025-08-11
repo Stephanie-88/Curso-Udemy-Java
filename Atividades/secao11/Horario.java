@@ -1,4 +1,5 @@
 import java.time.*;
+import java.time.format.DateTimeFormatter;
 
 public class Horario {
     public static void main(String[] args) {
@@ -19,6 +20,7 @@ public class Horario {
         LocalDateTime d09 = LocalDateTime.parse("20/07/2022 01:30", fmt2);
         
         LocalDate d10 = LocalDate.of(2025, 8, 20);
+        LocalDateTime d11 = LocalDateTime.of(2025,8,11,16,18);
         
         System.out.println("d01 = " + d01);
         System.out.println("d02 = " + d02);
@@ -30,5 +32,6 @@ public class Horario {
         System.out.println("d08 = " + d08);
         System.out.println("d09 = " + d09);
         System.out.println("d10 = " + d10);
+        System.out.println("d11 = " + d11);
     }
 }
